@@ -1,0 +1,325 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Oswald', 'Roboto', 'sans-serif';
+  background: linear-gradient(217deg, rgba(255, 0, 0, 0.8), rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%), linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+}
+
+input {
+  outline: none;
+}
+
+.send--whatsapp-menssagem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  width: 5rem;
+  height: 5rem;
+  font-size: 3rem;
+  background-color: #34af23;
+  color: #FFF;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.navbar {
+  width: 100%;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: blueviolet;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 1.5rem;
+}
+
+.logo--name {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.logo--name span {
+  color: #3232df;
+}
+
+.div--links {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+}
+
+.nav--ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav--links {
+  color: #FFF;
+  margin: 0 2rem;
+  font-size: 1.2rem;
+  padding: 0.4rem 0;
+}
+
+.nav--links:hover {
+  border-bottom: 5px solid red;
+  color: #c3c3c3;
+}
+
+.nav--icon {
+  justify-self: flex-end;
+}
+
+.fa-bars {
+  cursor: pointer;
+}
+
+.dropNav {
+  background-color: blueviolet;
+  display: none;
+}
+
+.nav--ul--dropNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.a--links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav--links--dropNav:hover {
+  border: none;
+}
+
+.dropNav-on {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.div--icon {
+  display: none;
+}
+
+.section--1 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.div-section-1--img,
+.div-section-1--form {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.div-section-1--img img {
+  width: 100%;
+  height: 110vh;
+  opacity: 0.7;
+}
+
+.div-section-1--form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.send--menssage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem 4rem;
+  width: 80%;
+  border: 2px solid #c3c3c3;
+  margin: 1.5rem 0;
+  background-color: #FFF;
+  border-radius: 0.4rem;
+}
+
+.send--menssage label {
+  font-size: 2.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.send--menssage-input,
+.send--menssage textarea,
+.send--form {
+  width: 100%;
+  height: 3rem;
+  resize: none;
+  font-size: 1.8rem;
+}
+
+.send--menssage-input {
+  border: none;
+  border-bottom: 2px solid #25d525;
+}
+
+.send--menssage textarea {
+  height: 10rem;
+  font-size: 2.2rem;
+}
+
+.send--form {
+  margin-top: 1.5rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #7f7ffc;
+  color: #FFF;
+  border: none;
+  border-radius: 1.2rem;
+  padding: 0.6rem 2rem;
+  cursor: pointer;
+  width: 75%;
+}
+
+.send--form:hover {
+  background-color: transparent;
+  border: 3px solid #7f7ffc;
+  color: #7f7ffc;
+}
+
+footer {
+  width: 100%;
+  height: 10vh;
+  background-color: #d8d5d5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2rem;
+  color: #000;
+}
+
+@media screen and (min-width: 26.9rem) and (max-width: 64rem) {
+  .navbar {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .div--icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .div--links {
+    display: none;
+  }
+  .section--1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .send--menssage {
+    width: 99%;
+    padding: 1rem 0.3rem;
+  }
+  .send--menssage-input,
+  #menssage {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 0rem) and (max-width: 26.8rem) {
+  .navbar {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .div--icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .div--links {
+    display: none;
+  }
+  .section--1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .send--menssage {
+    width: 99%;
+    padding: 1rem 0.3rem;
+  }
+  .send--menssage-input,
+  #menssage {
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

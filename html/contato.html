@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/contato/style.css">
+
+     <!-- ANIMATION -->
+     <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+   />
+
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/084a1fd7f7.js" crossorigin="anonymous"></script>
+
+    <title>Contato</title>
+</head>
+ 
+<body>
+
+    <!-- WHATSAPP ICON -->
+
+    <div class="send--whatsapp-menssagem animate__animated animate__bounce animate__infinite animate__delay-2s">
+        <i class="fab fa-whatsapp"></i>
+    </div>
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar animate__animated animate__backInLeft">
+        <div class="logo">
+            <a href="index.html">
+                <h2 class="logo--name">FOTOS<span>.com</span></h2>
+            </a>
+        </div>
+        <div class="div--links">
+            <ul class="nav--ul">
+                <a href="index.html">
+                    <li class="nav--links">HOME</li>
+                </a>
+                <a href="galeria.html">
+                    <li class="nav--links">GALERIA</li>
+                </a>
+                <a href="contato.html">
+                    <li class="nav--links">CONTATO</li>
+                </a>
+            </ul>
+        </div>
+        <div class="div--icon">
+            <i class="fas fa-bars fa-2x" onclick="dropNavbar()"></i>
+        </div>
+    </nav>
+    <div class="dropNav">
+        <div class="dropNav--itens">
+            <ul class="nav--ul nav--ul--dropNav">
+                <a class="a--links" href="index.html">
+                    <li class="nav--links nav--links--dropNav">HOME</li>
+                </a>
+                <a class="a--links" href="galeria.html">
+                    <li class="nav--links nav--links--dropNav">GALERIA</li>
+                </a>
+                <a class="a--links" href="contato.html">
+                    <li class="nav--links nav--links--dropNav">CONTATO</li>
+                </a>
+            </ul>
+        </div>
+    </div>
+
+    <!-- SECTION 1 -->
+    <section class="section--1">
+
+        <div class="div-section-1--img animate__animated animate__backInLeft animate__delay-1s">
+            <img src="../img/author.jpg" alt="author">
+        </div>
+        <div class="div-section-1--form div-section-1--img animate__animated animate__backInRight animate__delay-1s">
+            <form class="send--menssage">
+                <label for="name" class="animate__animated animate__fadeIn animate__delay-2s">Nome:</label>
+                <input type="text" class="send--menssage-input animate__animated animate__fadeIn animate__delay-2s" id="name" required >
+                <label for="email" class="animate__animated animate__fadeIn animate__delay-2s">Email:</label>
+                <input type="email" class="send--menssage-input animate__animated animate__fadeIn animate__delay-2s" id="email" required>
+                <label for="menssage" class="animate__animated animate__fadeIn animate__delay-2s">Digite sua mensagem:</label>
+                <textarea name="menssage" id="menssage" cols="30" rows="10" class="animate__animated animate__fadeIn animate__delay-2s" required></textarea>
+                <button type="submit" class="send--form animate__animated animate__fadeIn animate__delay-2s">Enviar</button>
+            </form>
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer class="animate__animated animate__fadeIn animate__delay-3s">
+        <p>Criado por Dev-Vitor</p>
+    </footer>
+
+    <!-- JQUERY -->
+    <script src="../js/jquery/jquery-3.5.1.js"></script>
+    <!-- SCRIPTS -->
+    <script src="../js/contato.js"></script>
+</body>
+
+</html>
