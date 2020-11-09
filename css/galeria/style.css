@@ -228,7 +228,7 @@ footer {
   color: #000;
 }
 
-@media screen and (max-width: 32.25rem) {
+@media screen and (min-width: 26.9rem) and (max-width: 64rem) {
   .navbar {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
@@ -250,9 +250,25 @@ footer {
   .gallery--image6 {
     pointer-events: none;
   }
+  .sec--1-title {
+    font-size: 3rem;
+  }
 }
 
-@media screen and (max-width: 26.8rem) {
+@media screen and (min-width: 0rem) and (max-width: 26.8rem) {
+  .navbar {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .div--icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .div--links {
+    display: none;
+  }
   .gallery--image1,
   .gallery--image2,
   .gallery--image3,
